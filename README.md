@@ -10,7 +10,7 @@ SIFT is an open source autonomous IT ticket triage agent built for Managed Servi
 Providers (MSPs). It takes raw, unstructured support ticket text and returns a structured
 resolution path including category, priority, diagnosis, step by step actions, and an
 escalation decision. SIFT covers networking, cloud infrastructure, security, endpoint,
-and identity tickets using a six node LangGraph state graph with structured LLM reasoning.
+and identity tickets using an agentic pipeline with structured LLM reasoning.
 
 ## Demo
 
