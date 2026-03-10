@@ -10,7 +10,7 @@ SIFT is an open source autonomous IT ticket triage agent built for Managed Servi
 Providers (MSPs). It takes raw, unstructured support ticket text and returns a structured
 resolution path including category, priority, diagnosis, step by step actions, and an
 escalation decision. SIFT covers networking, cloud infrastructure, security, endpoint,
-and identity tickets using a six node LangGraph state graph powered by GPT 4o.
+and identity tickets using a six node LangGraph state graph with structured LLM reasoning.
 
 ## Demo
 
@@ -61,8 +61,7 @@ Triages one ticket and exits.
 ```bash
 python sift.py --demo
 ```
-Runs five sample tickets automatically with colored output. Good for showing the agent
-to someone else without typing.
+Runs five sample tickets automatically with full triage output.
 
 ## Architecture
 
